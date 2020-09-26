@@ -1,0 +1,164 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* general styles */
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-size: contain;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+#header img {
+  width: 8rem;
+  margin-top: 2rem;
+}
+
+/* main content */
+
+.img-content img {
+  width: 100%;
+  margin-top: 3.5rem;
+}
+
+.info-content {
+  text-align: center;
+}
+
+.info-content h1 {
+  margin-top: 4rem;
+}
+
+.info-content p {
+  margin-top: 1rem;
+}
+
+.info-content a {
+  color: hsl(257, 40%, 49%);
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.70rem 5rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  
+}
+
+.info-content a:hover {
+  color: hsl(257, 40%, 49%);
+  background-color: #00252e;
+  display: inline-block;
+  padding: 0.70rem 5rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-left: 2.75rem;
+}
+
+/* footer */
+
+#footer {
+  width: 130px;
+  margin: 5rem auto 3rem auto;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1rem;
+  text-align: center;
+}
+
+
+#footer .fab {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+#footer .fab:hover {
+  border: 1px solid #00252e;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: #00252e;
+}
+
+#footer .fa-facebook-f {
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+#footer .fa-facebook-f:hover {
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+#footer .social-text {
+  display: none;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1199px) {
+  body {
+    background-image: url('../images/bg-mobile.svg');
+  }
+}
+
+@media screen and (min-width:1200px) {
+  body {
+    background-image: url('../images/bg-desktop.svg');
+  }
+
+  /* .container {
+    margin-left: 5rem;
+  } */
+
+  /* header */
+/* #header img {
+  width: 8rem;
+  margin-top: 2rem;
+} */
+
+  /* #main-content {
+    display:flex;
+  }
+  
+  .info-content {
+    width: 50%;
+  }
+
+  #footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  } */
+}
